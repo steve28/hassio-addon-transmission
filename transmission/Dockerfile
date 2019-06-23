@@ -11,7 +11,7 @@ RUN apk add --no-cache \
     transmission-daemon \
     openvpn
 RUN apk add --no-cache \
-    nginx=1.14.2-r0
+    nginx
 
 # Small hack needed for ingress support
 #
